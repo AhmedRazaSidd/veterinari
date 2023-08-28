@@ -4,7 +4,7 @@ import { Header } from './Components/template/layout/Header'
 import styles from './page.module.css'
 import HomePage from './pages/home'
 import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap/dist/js/bootstrap.js';
+// import 'bootstrap/dist/js/bootstrap.js';
 import './globals.css'
 
 
