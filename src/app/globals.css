@@ -1,0 +1,870 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html,
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.container-fluid {
+  width: 96% !important;
+}
+
+header nav {
+  background: #194B5F;
+  padding: 1.2rem 0px !important;
+}
+
+header {
+  font-family: 'Poppins', sans-serif;
+}
+
+header nav ul {
+  gap: 3rem;
+  color: #fff;
+  font-weight: bold;
+}
+
+header nav ul li a {
+  transition: .4s all;
+}
+
+header nav ul li a:hover {
+  color: #1BB39D !important;
+}
+
+/* Theme */
+.theme-btn {
+  border-radius: 99px;
+  border: 1px solid #437183;
+  padding: 8px;
+  background-color: #194B5F;
+  min-width: 100px;
+  color: #fff;
+  transition: .4s all;
+}
+
+.theme-btn:hover {
+  background-color: #1BB39D;
+  border-color: #1BB39D;
+}
+
+.theme-btn-2 {
+  background-color: #1BB39D;
+  border: 1px solid #1BB39D;
+  border-radius: 99px;
+  padding: 8px 25px;
+  color: #fff;
+  transition: .4s all;
+}
+
+.theme-btn-2:hover {
+  background-color: transparent;
+}
+
+.theme-btn-outline {
+  background-color: transparent;
+  border: 1px solid #E3E3E3;
+  border-radius: 99px;
+  padding: 8px 25px;
+  color: #fff;
+  transition: .4s all;
+  color: #050100;
+}
+
+.theme-btn-outline:hover {
+  background-color: #1BB39D;
+  color: #FFF;
+  border-color: #1BB39D;
+}
+
+.theme-btn-white {
+  border-radius: 99px;
+  border: 1px solid #FFF;
+  padding: 8px;
+  background-color: #FFF;
+  min-width: 100px;
+  color: #194B5F;
+  transition: .4s all;
+}
+
+.theme-btn-white:hover {
+  background-color: #1BB39D;
+  border-color: #1BB39D;
+}
+
+.text-theme {
+  color: #1BB39D;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.bg-theme-grey {
+  background-color: #E5E5E5;
+}
+
+.text-theme-2 {
+  color: #194B5F;
+}
+
+.w-mxc {
+  width: max-content !important;
+}
+
+/* Theme */
+
+
+/* Banner Start */
+.banner-image {
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-content {
+  margin-top: -120px;
+}
+
+.banner-content h1 {
+  text-align: center;
+  color: #FFF;
+  font-weight: 700;
+  margin-bottom: 1.3rem;
+}
+
+.search-bar {
+  width: 60%;
+  margin: auto;
+  border-radius: 99px;
+  background: #FFF;
+  box-shadow: 0px 4px 30px 4px rgba(0, 0, 0, 0.10);
+  padding: 7px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  width: 70%;
+  padding: 8px;
+  border: none;
+}
+
+.search-bar input:focus {
+  outline: 0;
+}
+
+.search-bar input::placeholder {
+  color: #6F7E84;
+  font-weight: 500;
+}
+
+.search-bar button {
+  padding: 9px 30px;
+  margin-left: auto;
+  font-weight: 700;
+}
+
+.banner-switch-box {
+  width: max-content;
+  margin: auto;
+  margin-top: 20px;
+  color: #194B5F;
+  font-weight: 500;
+  font-size: 17px;
+  gap: 2rem;
+}
+
+.banner-switch-box label {
+  line-height: 0;
+  font-size: larger;
+}
+
+.banner-switch-box input {
+  font-size: 25px;
+  width: 40px !important;
+}
+
+/* Banner End */
+
+
+/* Dedicate Section Start */
+.dedicate-section {
+  font-family: 'Poppins', sans-serif;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.dedicate-row {
+  padding-top: 55px;
+}
+
+.dedicate-col {
+  text-align: center;
+}
+
+.dedicate-icon {
+  border-radius: 40px;
+  background: #F6F8F7;
+  padding: 15px;
+  margin: auto;
+  width: 90px;
+}
+
+.dedicate-title {
+  margin-top: 20px;
+}
+
+.dedicate-title h4 {
+  font-weight: 700;
+  color: #050100;
+
+}
+
+.dedicate-p {
+  color: #939393;
+  font-size: large;
+  margin-top: 15px;
+}
+
+/* Dedicate Section End */
+
+/* Our Partners Start */
+.our-partners {
+  padding-top: 00px;
+  padding-bottom: 80px;
+}
+
+.parnter-logo {
+  object-fit: cover;
+  cursor: pointer;
+  transform: scale(1.4);
+}
+
+.partner-container {
+  width: 60%;
+  margin: auto;
+}
+
+/* Our Partners End */
+
+/* Professional Start */
+.professional-cards {
+  width: 20% !important;
+}
+
+.professional-profile img {
+  border-radius: 8px;
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.professional-rating {
+  display: flex;
+  padding: 15px 0px;
+  align-items: center;
+  gap: 5px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.professional-rating span {
+  font-weight: 700;
+}
+
+.professional-rating p {
+  margin: 0px;
+  color: #939393;
+  font-weight: 500;
+}
+
+.professional-details p {
+  color: #939393;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.professional-details span {
+  color: #2B7980;
+  font-weight: 500;
+}
+
+/* Professional End */
+
+
+/* Near By Start */
+.neary-by {
+  padding-top: 50px;
+  /* padding-bottom: 50px; */
+}
+
+.near-by-box {
+  width: 20% !important;
+}
+
+.near-by-img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.near-by-img img {
+  width: 100%;
+  height: 243px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.near-by-title h4 {
+  margin-top: 15px;
+  color: #050100;
+  font-weight: 500;
+}
+
+/* Near By End */
+
+/* Find Vet Start */
+.find-vet-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.find-vet-row {
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.find-vet-img {
+  height: 500px;
+  object-fit: cover;
+}
+
+.find-vet-box {
+  background: #F0F0F0;
+  padding: 4rem;
+}
+
+/* Find Vet End */
+
+/* Trusted Start */
+.trusted-row {
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.trusted-img {
+  height: 500px;
+  object-fit: cover;
+}
+
+.trusted-box {
+  padding: 0px 4rem;
+  background-color: #0B2934;
+}
+
+/* Trusted End */
+
+/* Are you Start */
+.are-you-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.are-you-row {
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.are-you-box {
+  padding: 0px 4rem;
+  background-color: #194B5F;
+}
+
+.are-you-img {
+  height: 500px;
+  object-fit: cover;
+}
+
+/* Are you End */
+
+
+/* Footer Start */
+.footer-section {
+  background-color: #0B2934;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-row {
+  border-bottom: 1px solid #FFF;
+  padding-bottom: 20px;
+}
+
+.footer-links {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.footer-links li a {
+  text-decoration: none;
+  color: #FFF;
+  margin-bottom: 15px;
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footer-btn button {
+  width: 200px;
+}
+
+.copy-right-row a {
+  color: #FFF;
+}
+
+.copy-right-row span {
+  color: #FFF;
+}
+
+.social-links div {
+  border: 1px solid #FFF;
+  border-radius: 50%;
+  padding: 15px;
+  transition: .4s all;
+}
+
+.social-links div:hover {
+  background-color: #1BB39D;
+  border-color: #1BB39D;
+}
+
+/* Footer End */
+
+
+/* Responsive Start */
+@media(max-width:1400px) {
+  .parnter-logo {
+    transform: none;
+  }
+
+  .banner-content {
+    margin-top: -110px;
+  }
+
+  .banner-content h1 {
+    font-size: 50px;
+  }
+
+  .dedicate-p {
+    font-size: small;
+  }
+
+  .find-vet-box h2 {
+    font-size: 25px;
+  }
+
+  .find-vet-box p {
+    font-size: small;
+  }
+
+  .find-vet-box button {
+    font-size: small;
+  }
+
+  .find-vet-img {
+    height: 430px;
+  }
+
+  .trusted-box {
+    gap: 20px;
+  }
+
+  .trusted-box h2 {
+    font-size: 25px;
+  }
+
+  .trusted-box button {
+    font-size: small;
+  }
+
+  .trusted-millions p {
+    margin: 0px;
+    font-size: small;
+  }
+
+  .trusted-img {
+    height: 430px;
+  }
+
+  .are-you-box h2 {
+    font-size: 25px;
+  }
+
+  .are-you-box button {
+    font-size: small;
+  }
+
+  .are-you-box p {
+    font-size: small;
+    margin: 12px 0px !important;
+  }
+
+  .are-you-img {
+    height: 430px;
+  }
+
+  .find-vet-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .are-you-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .professional-details p {
+    font-size: small;
+  }
+
+  .professional-details span {
+    font-size: small;
+  }
+
+  .professional-details h4 {
+    font-size: 20px;
+  }
+
+  .professional-rating {
+    font-size: small;
+  }
+
+  .professional-rating span {
+    font-size: small;
+  }
+
+  .near-by-title h4 {
+    font-size: 20px;
+  }
+
+  .footer-btn button {
+    font-size: small;
+  }
+
+  .footer-links li a {
+    font-size: small;
+  }
+
+  .copy-right-row a {
+    font-size: small;
+  }
+
+  .social-links div svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .social-links div {
+    padding: 12px 15px;
+  }
+
+  .footer-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+@media(max-width:1280px) {
+  .find-vet-img {
+    height: 400px;
+  }
+
+  .trusted-img {
+    height: 400px;
+  }
+
+  .are-you-img {
+    height: 400px;
+  }
+
+  header nav ul {
+    gap: 2rem;
+  }
+}
+
+@media(max-width:1024px) {
+  header nav ul {
+    gap: 1rem;
+  }
+
+  .search-bar {
+    width: 70%;
+  }
+
+  .banner-content h1 {
+    font-size: 40px;
+  }
+
+  .banner-content {
+    margin-top: -98px;
+  }
+
+  .professional-profile img {
+    height: 180px;
+  }
+
+  .near-by-img img {
+    height: 190px;
+  }
+
+  .footer-btn button {
+    width: 160px;
+  }
+}
+
+@media(max-width:991px) {
+  #navbarSupportedContent {
+    margin-top: 20px;
+  }
+
+  header nav ul li a {
+    font-size: small;
+  }
+
+  .header-btn button {
+    font-size: small;
+  }
+
+  .professional-cards {
+    width: 290px !important;
+    margin-bottom: 30px;
+  }
+
+  .professional-profile img {
+    height: 325px;
+  }
+
+  .neary-by {
+    padding-top: 0px;
+  }
+
+  .search-bar button {
+    font-size: small;
+  }
+
+  .near-by-box {
+    width: 230px !important;
+  }
+
+  .near-by-img img {
+    height: 230px;
+  }
+
+  .near-by-row {
+    justify-content: center;
+  }
+
+  .professionals-row {
+    justify-content: center;
+  }
+}
+
+@media(max-width:800px) {
+  .trusted-box {
+    padding: 4rem 4rem;
+  }
+
+  .are-you-row {
+    flex-direction: column-reverse;
+  }
+
+  .are-you-box {
+    padding: 4rem 4rem;
+  }
+
+  .find-vet-row {
+    flex-direction: column-reverse;
+  }
+
+  .footer-row {
+    gap: 2.5rem;
+  }
+
+  .footer-logo {
+    width: 40% !important;
+  }
+
+  .footer-btn button {
+    width: 100%;
+  }
+
+  .copy-right-row {
+    gap: 2rem;
+    padding-top: 1.5rem !important;
+  }
+
+  .social-links div {
+    padding: 8px 10px;
+  }
+
+  .footer-row {
+    padding-bottom: 1.8rem;
+  }
+
+  .find-vet-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .are-you-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+}
+
+@media(max-width:768px) {
+  .professional-cards {
+    width: 100% !important;
+  }
+
+  .professional-profile img {
+    height: 360px;
+  }
+
+  .near-by-box {
+    width: 100% !important;
+  }
+
+  .near-by-img img {
+    height: 300px;
+  }
+
+  .near-by-row {
+    gap: 1.5rem;
+  }
+
+  .professional-title h3 {
+    font-size: 15px;
+  }
+
+  .professional-title button {
+    font-size: 10px;
+  }
+
+  .are-you-box {
+    padding: 1.9rem;
+  }
+
+  .are-you-box button {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .are-you-box h2 {
+    font-size: 30px;
+  }
+
+  .trusted-box {
+    padding: 1.9rem;
+  }
+
+  .trusted-box button {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .find-vet-box {
+    padding: 1.9rem;
+  }
+
+  .find-vet-box button {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .search-bar {
+    width: 90%;
+    flex-wrap: wrap;
+    border-radius: 24px;
+    padding: 7px 13px;
+  }
+
+  .search-bar input {
+    width: 90%;
+  }
+
+  .search-bar button {
+    width: 100% !important;
+  }
+
+  .banner-content h1 {
+    font-size: 23px;
+    margin-bottom: 10px;
+  }
+
+  .banner-content {
+    margin-top: -83px;
+  }
+
+  .banner-image {
+    height: 200px;
+    background-position: 57%;
+  }
+
+  .banner-switch-box label {
+    font-size: 16px;
+  }
+
+  .dedicate-heading {
+    font-size: 18px;
+  }
+
+  .dedicate-title {
+    font-size: 18px;
+  }
+
+  .dedicate-icon {
+    border-radius: 25px;
+    width: 75px;
+    padding: 8px;
+  }
+
+  .dedicate-icon svg {
+    width: 25px;
+  }
+
+  .home-page {
+    background-color: #FFF;
+  }
+
+  .footer-logo {
+    width: 70% !important;
+  }
+
+  .dedicate-section {
+    padding-top: 35px;
+  }
+
+  .dedicate-row {
+    padding-top: 35px;
+  }
+
+  .partner-container {
+    width: 100%;
+  }
+  .our-partners{
+    padding-bottom: 20px;
+  }
+  .dedicate-section{
+    padding-bottom: 20px;
+  }
+}
+
+/* Responsive End */
